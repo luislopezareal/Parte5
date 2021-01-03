@@ -16,10 +16,11 @@
         */
         
         let valores = [2, 7, 14, 22, 45, 87, 112, 456, 908, 1248]
+        let media = 0
 
-        for(let i=0; i < valores.length; i++)
+        for(let i=0; i < valores.length; i = i + 1)
 
-        media = valores[i] / valores.length
+        media = media + valores[i] / valores.length
 
         console.log(media);
 
